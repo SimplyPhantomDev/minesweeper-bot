@@ -5,7 +5,7 @@ import java.awt.event.InputEvent;
 
 /**
  *
- * @author tompp
+ * @author Tomi Niemelä
  */
 public class ActionExecutor {
     private Robot robot;
