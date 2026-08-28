@@ -7,7 +7,7 @@ import java.io.File;
 
 /**
  *
- * @author tompp
+ * @author Tomi Niemelä
  */
 public class ScreenCapture {
     private Rectangle captureArea;
