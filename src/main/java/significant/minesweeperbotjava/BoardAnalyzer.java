@@ -7,7 +7,7 @@ import java.io.InputStream;
 import java.io.IOException;
 /**
  *
- * @author tompp
+ * @author Tomi Niemelä
  */
 public class BoardAnalyzer {
     private BufferedImage boardImage;
