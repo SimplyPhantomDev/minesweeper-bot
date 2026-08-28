@@ -2,7 +2,7 @@ package significant.minesweeperbotjava;
 
 /**
  *
- * @author tompp
+ * @author Tomi Niemelä
  */
 public class Cell {
     private String state;
