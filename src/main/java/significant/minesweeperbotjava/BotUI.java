@@ -11,7 +11,7 @@ import javax.imageio.ImageIO;
 
 /**
  *
- * @author tompp
+ * @author Tomi Niemelä
  */
 public class BotUI extends JFrame {
     private JComboBox<String> stageSelector;
@@ -86,7 +86,6 @@ public class BotUI extends JFrame {
         statusLabel = new JLabel("Status: waiting for user action", SwingConstants.CENTER);
         add(statusLabel);
         
-        // Add action listeners
         startButton.addActionListener(new StartButtonListener());
         stopButton.addActionListener(e -> {
             stopBot = true;
@@ -199,7 +198,7 @@ public class BotUI extends JFrame {
             while (hasMoves) {
                 if (stopBot) {
                     System.out.println("Bot stopped by user.");
-                    return false; // Exit gracefully
+                    return false;
                 }
                 // Capture and process the board
                 BufferedImage boardImage = screenCapture.capture();
